@@ -1,0 +1,90 @@
+ *
+ {
+    box-sizing: border-box;
+ }
+body
+{
+    font-family: 'Montserrat';
+    color: #413e4a;
+}
+a
+{
+    display: inline-block;
+}
+nav a
+{
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    height: 100px;
+}
+.cabecera
+{
+    padding-top: 15px;
+    padding-bottom:15px ;
+    background-color: #071330;
+}
+.cabecera .link-logo
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+.cabecera .link-logo .logo
+{
+    width: 80px;
+    height: auto;
+}
+.cabecera .menu
+{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 66%;
+}
+.cabecera .menu a
+{
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    color: #E69A23;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+.container
+{
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.columna
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+    margin-left: -1px;
+    margin-right: -1px;
+    vertical-align: top;
+}
+.columna-100
+{
+    width: 100%;
+}
+.columna-33
+{
+    width: 33px;
+}
+.columna-25
+{
+    width: 25%;
+}
+.seccion
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.banner-home
+{
+    width: 100%;
+    height: auto;
+    display: block;
+}
